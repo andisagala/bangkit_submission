@@ -19,7 +19,8 @@ min_date = weather_df["date"].min()
 max_date = weather_df["date"].max()
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    # st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("dashboard\png-transparent-architecture-beijing-building-china-city-forbidden-palace-landmark-outline-icon.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
